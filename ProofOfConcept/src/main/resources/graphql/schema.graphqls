@@ -1,0 +1,8 @@
+type Repo{
+    id: ID!
+    node_id: String
+    node_name: String
+}
+type Query{
+    repos: [Repo]
+}
